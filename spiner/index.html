@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>WINNER</h1>
+        <p id="winner">NONE</p>
+    </div>
+    <div class="inputArea" onchange="createWheel()">
+        <textarea rows="20" cols="30">
+            cat
+            dog
+            cow
+            duck
+            sheep
+            goat
+            bird
+            neko
+            chicken
+        </textarea>
+    </div>
+    <div class="wheel">
+        <canvas class="" id="canvas" width="500" height="500"></canvas>
+        <div class="center-circle" onclick="spin()"> 
+            <div class="triangle"></div>
+        </div>
+
+    </div>
+   
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
