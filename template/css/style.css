@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+}
+
+.c-mr-0 {
+    margin-right: 0px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.p-0-135 {
+    padding: 0px 130px;
+}
+
