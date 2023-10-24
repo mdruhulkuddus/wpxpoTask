@@ -83,9 +83,11 @@ nav a {
     margin: 0;
 }
 nav .logo {
-    font-size: 56px;
-    font-weight: 400;
+    /* font-size: 56px;
+    font-weight: 400; */
       /* font-family: 'Quinshy'; */
+      width: 189px;
+      height: 70px;
  }
 
 nav ul {
@@ -116,4 +118,83 @@ nav .search-box input {
 nav .search-box span {
     width: 24px;
     height: 24px;
+    color: #1D1A1A;
 }
+
+/* slider */
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+.slider img {
+    height: 560px;
+}
+
+/* .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+} */
+
+.slider-caption {
+    position: absolute;
+    right: 15%;
+    left: 49%;
+    bottom: 7.25rem;
+    width: 480px;
+    height: 326px;
+    border: 1px solid #FFFFFF;
+    text-align: left;
+    padding: 36px 55px;
+}
+
+.slider-caption .skin {
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    border-bottom: 1px solid #FFFFFF;
+    padding: 2px 0px;
+}
+
+.slider-cap{
+    background-color: #405976;
+}
+.slider-caption h1 {
+    padding: 10px 0px;
+    font-family: 'Vidaloka';
+    font-size: 32px;
+    font-weight: 400px;
+    color: #FFFFFF;
+}
+
+.slider-caption p {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.slider-caption p span{
+    font-weight: 300;
+}
+.slider-caption a {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    padding: 13px 0px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+/* .carousel-caption h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+} */
