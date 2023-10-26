@@ -214,30 +214,30 @@ nav .search-box span {
 }
 
 .categories-image img {
-    height: 150px;
-    width: 198px;
-         
+    height: auto;
+    width: 100%;
+
 }
 
 /* FOR OVERLAY ON IMAGE */
 .categories-wrapper {
-     /* Set a fixed width for the wrapper */
+    /* Set a fixed width for the wrapper */
     position: relative;
-  }
-  
-  .categories-image {
+}
+
+.categories-image {
     position: relative;
-    overflow: hidden; /* Hide overflowing content */
-  }
-  
-  .categories-image img {
-    width: 100%;
-    height: auto;
+    overflow: hidden;
+    /* Hide overflowing content */
+}
+
+.categories-image img {
+
     /* filter: blur(1px);  */
     /* Apply a blur effect to the image */
-  }
-  
-  .overlay {
+}
+
+.categories-image .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -246,10 +246,11 @@ nav .search-box span {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1D1A1A99; /* Semi-transparent black overlay */
-  }
-  
-  .like-button {
+    background-color: #1D1A1A99;
+    /* Semi-transparent black overlay */
+}
+
+.categories-image .like-button {
     color: #FFFFFF;
     text-decoration: none;
     padding: 8px 24px;
@@ -260,5 +261,83 @@ nav .search-box span {
     letter-spacing: 2px;
     font-weight: 400;
     text-align: center;
-  }
-  
+}
+
+
+/* latest post */
+
+.latestPost {
+   
+}
+
+.latestPost .top-line {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.latestPost .line {
+    flex: 1;
+    border-bottom: 2px solid #000;
+}
+
+.latestPost .text {
+    margin: 0 10px;
+    /* Adjust the margin as needed */
+    font-weight: bold;
+    /* You can apply other styles to the text as well */
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.latestPost .wrapper-top {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.latestPost .wrapper-top .top-image{
+   position: relative;
+   /* overflow: hidden; */
+}
+
+.latestPost .wrapper-top .top-image .overlay{
+    position: absolute;
+    width: 292px;
+    height: auto;
+    border: 1px solid #1D1A1A;
+    text-align: center;
+    top: 65%;
+    right: 8%;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.latestPost .wrapper-top .top-image .overlay .top {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    border-bottom: 1px solid #1D1A1A;
+    padding: 2px 0px;
+}
+
+.latestPost .wrapper-top .top-image .overlay p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.latestPost .wrapper-top .top-image .overlay .bottom {
+    font-size: 12px;
+    font-family: 'Montserrat';
+}
+
+.latestPost .rapper-bottom {
+    
+}
+
+.latestPost .rapper-bottom img{
+    width: 100%;
+    margin-right: 0;  
+    overflow: hidden; 
+}
