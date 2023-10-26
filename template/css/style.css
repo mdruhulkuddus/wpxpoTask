@@ -266,9 +266,7 @@ nav .search-box span {
 
 /* latest post */
 
-.latestPost {
-   
-}
+.latestPost {}
 
 .latestPost .top-line {
     display: flex;
@@ -296,12 +294,12 @@ nav .search-box span {
     position: relative;
 }
 
-.latestPost .wrapper-top .top-image{
-   position: relative;
-   /* overflow: hidden; */
+.latestPost .wrapper-top .top-image {
+    position: relative;
+    /* overflow: hidden; */
 }
 
-.latestPost .wrapper-top .top-image .overlay{
+.latestPost .wrapper-top .top-image .overlay {
     position: absolute;
     width: 292px;
     height: auto;
@@ -330,14 +328,50 @@ nav .search-box span {
 .latestPost .wrapper-top .top-image .overlay .bottom {
     font-size: 12px;
     font-family: 'Montserrat';
+    color: #838383;
 }
 
-.latestPost .rapper-bottom {
-    
+.latestPost .wrapper-bottom {
+    margin-top: 150px;
+    position: relative;
 }
 
-.latestPost .rapper-bottom img{
+.latestPost .wrapper-bottom img {
     width: 100%;
-    margin-right: 0;  
-    overflow: hidden; 
+    position: relative;
+}
+
+.latestPost .wrapper-bottom .overlay {
+    position: absolute;
+    width: 830px;
+    height: auto;
+    border: 1px solid #1D1A1A;
+    text-align: center;
+    top: 75%;
+    left: 12%;
+    background-color: #FFFFFF;
+    padding: 12px 66px;
+}
+
+.latestPost .wrapper-bottom .overlay .top {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    border-bottom: 1px solid #1D1A1A;
+    padding: 2px 0px;
+}
+
+.latestPost .wrapper-bottom .overlay p {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.latestPost .wrapper-bottom .overlay .paragrap {
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.latestPost .wrapper-bottom .overlay .bottom {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    color: #838383;
 }
