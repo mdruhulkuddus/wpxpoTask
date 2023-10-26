@@ -375,3 +375,29 @@ nav .search-box span {
     font-family: 'Montserrat';
     color: #838383;
 }
+
+/* ad */
+.ad {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.ad img {
+    width: 100%;
+}
+
+/* popular post  */
+
+.popular-wrapper-bottom .bottom-image{
+    margin: 130px 0;   
+}
+
+.popular-wrapper-bottom .bottom-image img{
+    width: 540px;
+}
+
+.latestPost .popular-wrapper-bottom {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
