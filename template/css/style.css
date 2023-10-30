@@ -388,16 +388,303 @@ nav .search-box span {
 
 /* popular post  */
 
-.popular-wrapper-bottom .bottom-image{
-    margin: 130px 0;   
+.popularPost .top-line {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
 }
 
-.popular-wrapper-bottom .bottom-image img{
-    width: 540px;
+.popularPost .line {
+    flex: 1;
+    border-bottom: 2px solid #000;
 }
 
-.latestPost .popular-wrapper-bottom {
+.popularPost .text {
+    margin: 0 10px;
+    /* Adjust the margin as needed */
+    font-weight: bold;
+    /* You can apply other styles to the text as well */
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.popularPost .wrapper-top {
     display: flex;
     justify-content: space-between;
     position: relative;
+}
+
+.popularPost .wrapper-top .top-image {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.popularPost .wrapper-top .top-image .overlay {
+    position: absolute;
+    width: 292px;
+    height: auto;
+    border: 1px solid #1D1A1A;
+    text-align: center;
+    top: 65%;
+    right: 8%;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.popularPost .wrapper-top .top-image .overlay .top {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    border-bottom: 1px solid #1D1A1A;
+    padding: 2px 0px;
+}
+
+.popularPost .wrapper-top .top-image .overlay p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.popularPost .wrapper-top .top-image .overlay .bottom {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    color: #838383;
+}
+
+.wrapper-bottom .bottom-image {
+    margin: 130px 0;
+}
+
+.popularPost .wrapper-bottom {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.popularPost .wrapper-bottom .bottom-image {
+    position: relative;
+}
+
+.wrapper-bottom .bottom-image img {
+    width: 540px;
+}
+
+.popularPost .wrapper-bottom .overlay {
+    position: absolute;
+    width: 410px;
+    height: auto;
+    border: 1px solid #1D1A1A;
+    text-align: center;
+    top: 75%;
+    left: 58px;
+    background-color: #FFFFFF;
+    padding: 12px 30px;
+}
+
+.popularPost .wrapper-bottom .overlay .top {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    border-bottom: 1px solid #1D1A1A;
+    padding: 2px 0px;
+}
+
+.popularPost .wrapper-bottom .overlay p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.popularPost .wrapper-bottom .overlay .bottom {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    color: #838383;
+}
+
+/* testimonial */
+
+.testimonial {
+    width: 100%;
+    height: 296px;
+    background-color: #DDDDDD;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonial .content {
+    width: 795px;
+    height: 190px;
+    position: absolute;
+    /* content make center up-down-left-right*/
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.testimonial .content .content-img {}
+
+.testimonial .content .content-img img {
+    width: 190px;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.testimonial .content .content-text {
+    margin-left: 25px;
+    margin-top: 5px;
+
+    .name {
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+    & p {
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .social i {
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+}
+
+.ad2 {
+    margin: 30px 0;
+}
+
+/* instagram */
+
+.instagram .top-line {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.instagram .line {
+    flex: 1;
+    border-bottom: 2px solid #000;
+}
+
+.instagram .text {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.instagram .wrapper-top {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.instagram .wrapper-top .top-image {
+    position: relative;
+}
+
+.instagram .wrapper-top .top-image img {
+    width: 260px;
+}
+
+.instagram .follow-btn {
+    margin: 20px 0;
+}
+
+.instagram .btn-follow {
+    border-radius: 26px;
+}
+
+/* random post  */
+
+.randomPost .top-line {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.randomPost .line {
+    flex: 1;
+    border-bottom: 2px solid #000;
+}
+
+.randomPost .text {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+/* footer  */
+
+footer {
+    overflow: hidden;
+}
+
+.footer-upper {
+    width: 100%;
+    height: 379px;
+    background-color: #DDDDDD;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer-upper .footer-upper-content {
+    width: 795px;
+    height: 190px;
+    position: absolute;
+    /* content make center up-down-left-right*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-upper .footer-upper-content p{
+    text-align: center;
+    font-size: 36px;
+}
+.footer-upper .footer-upper-content span {
+    font-size: 16px;
+}
+.subscribe-aggree {
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 16px;
+    display: flex;
+}
+.search-footer {
+    position: relative;
+    width: 730px;
+}
+
+.search-footer input {
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+    font-size: 18px;
+    border-radius: 29px;
+}
+
+.search-footer input:focus {
+    box-shadow: none;
+    border: 2px solid #1D1A1A;
+}
+
+.search-footer .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+
+}
+
+.search-footer button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background: #1D1A1A;
+    border-radius: 29px;
+    padding: 13px 47px;
 }
