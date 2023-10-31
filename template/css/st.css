@@ -1,0 +1,69 @@
+.randomPost-wrapper .left-img-content {
+    height: 500px;
+    position: relative;
+    margin: 15px 0;
+    border-bottom: 1px dotted #1D1A1A;
+}
+
+.randomPost-wrapper .left-img-content .content-img{
+    position: relative;
+}
+
+.randomPost-wrapper .left-img-content .overlay {
+    position: absolute;
+    width: 666px;
+    height: auto;
+    border: 1px solid #1D1A1A;
+    text-align: center;
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%);
+    padding: 30px 25px;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+.left-img-content .overlay .top {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    border-bottom: 1px solid #1D1A1A;
+    padding: 2px 0px;
+}
+.left-img-content .overlay p {
+    font-size: 32px;
+    font-weight: 400;
+}
+.left-img-content .overlay .paragrap {
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+.left-img-content .overlay .bottom {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    color: #838383;
+}
+
+/* right  */
+
+.right-img-content .content-img {
+    float: right; 
+}
+
+.right-img-content .overlay {
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+}
+
+.randomPost-wrapper .fotter-btn{
+    display: flex;
+    justify-content: center;
+}
+.randomPost-wrapper button {
+    background-color: #1D1A1A;
+    color: #FFFFFF;
+    padding: 16px 48px;
+    border-radius: 28px;
+    font-size: 16px;
+    text-align: center;
+}
