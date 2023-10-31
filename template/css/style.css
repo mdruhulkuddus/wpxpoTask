@@ -695,3 +695,16 @@ footer {
     border-radius: 29px;
     padding: 13px 47px;
 }
+
+/* footer lower  */
+
+.Copyright .left i{
+    border: 1px solid #FFFFFF;
+    padding: 7px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.Copyright .left, .right {
+    
+}
